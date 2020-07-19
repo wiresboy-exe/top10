@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="icon" type="image/png" href="site logo.png"/>
+        <title>WiresBoy | 404</title>
+    </head>
+    <body style="background-color: #F0F0F0">
+    
+    <script>
+       function getUrlParam(parameter, defaultValue) {
+          const urlParams = new URLSearchParams(window.location.search);
+          return urlParams.get(parameter) || defaultValue;
+       }
+
+       var song = getUrlParam('sname', 'na')
+       
+       document.write(song)
+    </script>
+    
+    </body>
+    <footer style="background-color: slategrey;">
+    </footer>
+</html>
